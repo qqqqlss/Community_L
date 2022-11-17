@@ -1,0 +1,84 @@
+@charset "UTF-8";
+.name{
+	font-family: Helvetica,"Malgun Gothic",Dotum,Arial;
+	font-size: 45pt;
+    font-weight: bold;
+}
+table {
+    border: 1px solid #444444;
+    border-collapse: collapse;
+
+  }
+  .out2{
+  	text-align:center;
+  	width:90%;
+  	margin-left: 100px;
+  }
+  th, td {
+    border: 1px solid #444444;
+    padding:10px;
+  }
+  .ad{
+    color: green;
+  }
+  .ap{
+    color:orange;
+  }
+  .range{
+    color:red;
+  }
+  .lap{
+  	display:inline-block;
+  	width:1200px;
+  }
+  .story{
+  	overflow:scroll;
+  	overflow-x:hidden; 
+  	width:100%;
+  	height:500px;
+  }
+  .video{
+  	float:left;
+  	margin-left:100px;
+  }
+  .stat{
+  	float:left;
+  	margin-left:50px;
+  }
+  
+
+  .stat_video{
+  	margin-left: auto; margin-right: auto;
+  }
+  
+    /*스탯과 비디오가 float이기때문에 부모인 stat_video의 높이가 0이 되는 현상을 방지해주는 코드! */
+  .stat_video:after{ content:'';display:block;clear:both; }
+  
+  .skin_list{
+  	display:inline-block;
+  	width:25%;
+  }
+  .skin_img{
+  	display:inline-block;
+  	width:100%;
+  	margin:auto;
+  }
+ .skin_img img{
+ 	width:100%;
+ }
+ .skin{
+ 	display:flex;
+ 	margin-top:50px;
+ }
+ .champ_name{
+ 	display:flex;
+ 	margin-bottom:20px;
+ }
+ .champ{
+ 	display:inline-block;
+ }	
+ .name{
+ 	margin-bottom:auto;
+ 	margin-top:auto;
+ 	margin-left:20px;
+ }
